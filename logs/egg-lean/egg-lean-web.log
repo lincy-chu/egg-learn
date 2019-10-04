@@ -1,0 +1,1601 @@
+2019-09-29 09:51:51,918 ERROR 71076 [-/127.0.0.1/-/7ms GET /] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:9:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 71076
+hostname: SZ-DTC-0967
+
+2019-09-29 09:56:43,707 ERROR 80560 [-/127.0.0.1/-/7ms GET /] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:9:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 80560
+hostname: SZ-DTC-0967
+
+2019-09-29 09:56:45,892 ERROR 80560 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:9:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 80560
+hostname: SZ-DTC-0967
+
+2019-09-29 10:00:30,390 ERROR 35144 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:9:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 35144
+hostname: SZ-DTC-0967
+
+2019-09-29 10:00:32,836 ERROR 35144 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:9:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 35144
+hostname: SZ-DTC-0967
+
+2019-09-29 10:02:07,650 ERROR 74592 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:9:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 74592
+hostname: SZ-DTC-0967
+
+2019-09-29 10:04:49,647 ERROR 59072 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at NewsService.list (C:\Users\robin.zhu\Desktop\egg-learn\app\service\news.ts:21:44)
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:8:42)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+
+pid: 59072
+hostname: SZ-DTC-0967
+
+2019-09-29 10:09:03,592 ERROR 65976 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at NewsService.list (C:\Users\robin.zhu\Desktop\egg-learn\app\service\news.ts:21:44)
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:8:42)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+
+pid: 65976
+hostname: SZ-DTC-0967
+
+2019-09-29 10:09:34,609 ERROR 35360 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at NewsService.list (C:\Users\robin.zhu\Desktop\egg-learn\app\service\news.ts:21:44)
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:8:42)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+
+pid: 35360
+hostname: SZ-DTC-0967
+
+2019-09-29 10:10:12,942 ERROR 38148 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at NewsService.list (C:\Users\robin.zhu\Desktop\egg-learn\app\service\news.ts:21:44)
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:8:42)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+
+pid: 38148
+hostname: SZ-DTC-0967
+
+2019-09-29 10:12:23,176 ERROR 50308 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at NewsService.list (C:\Users\robin.zhu\Desktop\egg-learn\app\service\news.ts:22:39)
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:8:42)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+
+pid: 50308
+hostname: SZ-DTC-0967
+
+2019-09-29 10:12:54,665 ERROR 6704 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at NewsService.list (C:\Users\robin.zhu\Desktop\egg-learn\app\service\news.ts:22:39)
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:8:42)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+
+pid: 6704
+hostname: SZ-DTC-0967
+
+2019-09-29 10:14:14,245 ERROR 72068 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at NewsService.list (C:\Users\robin.zhu\Desktop\egg-learn\app\service\news.ts:22:39)
+    at HomeController.index (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\home.ts:8:42)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+
+pid: 72068
+hostname: SZ-DTC-0967
+
+2019-09-29 14:03:04,159 WARN 53668 [-/127.0.0.1/-/20ms POST /api/users] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-09-29 14:03:04,166 WARN 53668 [-/127.0.0.1/-/23ms POST /api/users] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\app\extend\context.js:154:19)
+    at csrf (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 53668
+hostname: SZ-DTC-0967
+
+2019-09-29 14:04:17,556 WARN 53668 [-/127.0.0.1/-/1ms POST /api/users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-09-29 14:04:17,559 WARN 53668 [-/127.0.0.1/-/4ms POST /api/users] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\app\extend\context.js:163:19)
+    at csrf (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 53668
+hostname: SZ-DTC-0967
+
+2019-09-29 14:04:50,593 WARN 53668 [-/127.0.0.1/-/0ms PUT /api/users/123] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-09-29 14:04:50,594 WARN 53668 [-/127.0.0.1/-/1ms PUT /api/users/123] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\app\extend\context.js:163:19)
+    at csrf (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-override\index.js:13:70)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 53668
+hostname: SZ-DTC-0967
+
+2019-09-29 14:05:09,783 WARN 72824 [-/127.0.0.1/-/16ms PUT /api/users/123] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-09-29 14:05:09,798 WARN 72824 [-/127.0.0.1/-/27ms PUT /api/users/123] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\app\extend\context.js:163:19)
+    at csrf (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-override\index.js:13:70)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 72824
+hostname: SZ-DTC-0967
+
+2019-09-29 15:18:21,821 WARN 73192 [-/127.0.0.1/-/19ms POST /student] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\_egg-validate@2.0.2@egg-validate\app\extend\context.js:14:17)
+    at Object.exports.create (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\student.ts:13:9)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be an email","code":"invalid","field":"name"},{"message":"length should bigger than 6","code":"invalid","field":"password"}]
+pid: 73192
+hostname: SZ-DTC-0967
+
+2019-09-29 15:19:59,320 WARN 29736 [-/127.0.0.1/-/19ms POST /student] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\_egg-validate@2.0.2@egg-validate\app\extend\context.js:14:17)
+    at Object.exports.create (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\student.ts:12:9)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be a number","code":"invalid","field":"password"}]
+pid: 29736
+hostname: SZ-DTC-0967
+
+2019-09-29 15:20:02,928 WARN 29736 [-/127.0.0.1/-/1ms POST /student] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\_egg-validate@2.0.2@egg-validate\app\extend\context.js:14:17)
+    at Object.exports.create (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\student.ts:12:9)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be a number","code":"invalid","field":"password"}]
+pid: 29736
+hostname: SZ-DTC-0967
+
+2019-09-29 15:20:15,179 WARN 42272 [-/127.0.0.1/-/18ms POST /student] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\_egg-validate@2.0.2@egg-validate\app\extend\context.js:14:17)
+    at Object.exports.create (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\student.ts:12:9)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be an email","code":"invalid","field":"name"}]
+pid: 42272
+hostname: SZ-DTC-0967
+
+2019-09-29 15:30:07,312 ERROR 33508 [-/127.0.0.1/-/16ms GET /theIndex] nodejs.AssertionError: status code must be a number
+    at Object.set status [as status] (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa\lib\response.js:86:5)
+    at Object.status (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\delegates\index.js:92:31)
+    at Object.<anonymous> (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:364:18)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:36:12
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 33508
+hostname: SZ-DTC-0967
+
+2019-09-29 17:17:00,643 ERROR 73112 [-/127.0.0.1/-/5ms GET /postBase] nodejs.TypeError: Cannot set property user of #<BaseController> which has only a getter
+    at new PostBaseController (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\postBase.ts:5:16)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:195:33)
+
+pid: 73112
+hostname: SZ-DTC-0967
+
+2019-09-29 17:17:26,606 ERROR 78660 [-/127.0.0.1/-/6ms GET /postBase] nodejs.TypeError: Cannot set property user of #<BaseController> which has only a getter
+    at new PostBaseController (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\postBase.ts:5:16)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:195:33)
+
+pid: 78660
+hostname: SZ-DTC-0967
+
+2019-09-29 17:17:27,850 ERROR 78660 [-/127.0.0.1/-/0ms GET /postBase] nodejs.TypeError: Cannot set property user of #<BaseController> which has only a getter
+    at new PostBaseController (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\postBase.ts:5:16)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:195:33)
+
+pid: 78660
+hostname: SZ-DTC-0967
+
+2019-09-29 17:20:32,858 ERROR 27124 [-/127.0.0.1/-/6ms GET /postBase] nodejs.TypeError: this.service.listByUser is not a function
+    at PostBaseController.list (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\postBase.ts:10:42)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:36:12
+
+pid: 27124
+hostname: SZ-DTC-0967
+
+2019-09-29 17:20:34,129 ERROR 27124 [-/127.0.0.1/-/1ms GET /postBase] nodejs.TypeError: this.service.listByUser is not a function
+    at PostBaseController.list (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\postBase.ts:10:42)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:36:12
+
+pid: 27124
+hostname: SZ-DTC-0967
+
+2019-09-29 17:22:50,296 ERROR 45840 [-/127.0.0.1/-/5ms GET /postBase] nodejs.TypeError: this.service.listByUser is not a function
+    at PostBaseController.list (C:\Users\robin.zhu\Desktop\egg-learn\app\controller\postBase.ts:5:42)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\robin.zhu\Desktop\egg-learn\node_modules\koa-compose\index.js:36:12
+
+pid: 45840
+hostname: SZ-DTC-0967
+
+2019-10-02 10:34:45,724 ERROR 1049 [-/127.0.0.1/-/0ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND http://127.0.0.1 http://127.0.0.1:3306 (http://127.0.0.1) (http://127.0.0.1) (http://127.0.0.1)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+    --------------------
+    at Protocol._enqueue (/Users/zhudapeng/Desktop/egg-learn/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/zhudapeng/Desktop/egg-learn/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/zhudapeng/Desktop/egg-learn/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/zhudapeng/Desktop/egg-learn/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/zhudapeng/Desktop/egg-learn/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/zhudapeng/Desktop/egg-learn/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/zhudapeng/Desktop/egg-learn/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "http://127.0.0.1"
+host: "http://127.0.0.1"
+port: "3306"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 1049
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 14:26:07,838 ERROR 1109 [-/127.0.0.1/-/1ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND http://127.0.0.1 http://127.0.0.1:3306 (http://127.0.0.1) (http://127.0.0.1) (http://127.0.0.1)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+    --------------------
+    at Protocol._enqueue (/Users/zhudapeng/Desktop/egg-learn/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/zhudapeng/Desktop/egg-learn/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/zhudapeng/Desktop/egg-learn/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/zhudapeng/Desktop/egg-learn/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/zhudapeng/Desktop/egg-learn/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/zhudapeng/Desktop/egg-learn/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/zhudapeng/Desktop/egg-learn/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "http://127.0.0.1"
+host: "http://127.0.0.1"
+port: "3306"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 1109
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 14:56:47,936 INFO 1324 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 14:57:59,807 INFO 1331 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:00:24,953 INFO 1340 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:01:26,664 INFO 1341 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:01:42,269 ERROR 1341 [-/127.0.0.1/-/4ms GET /tester] nodejs.TypeError: Cannot read property 'query' of undefined
+    at Tester.index (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:6:35)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 1341
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 15:05:06,260 INFO 1370 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:13:25,598 INFO 1396 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:13:31,654 INFO 1396 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:20:20,950 INFO 1423 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:21:06,124 ERROR 1423 [-/127.0.0.1/-/43ms POST /tester/add] nodejs.TypeError: v1_1.uuid is not a function
+    at Tester.add (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:13:17)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 1423
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 15:22:09,269 INFO 1467 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:24:36,123 INFO 1477 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:25:12,111 INFO 1485 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:25:16,072 ERROR 1485 [-/127.0.0.1/-/33ms POST /tester/add] nodejs.TypeError: uuid_1.v1(...).toString.replace is not a function
+    at Tester.add (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:13:31)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 1485
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 15:25:50,981 INFO 1494 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:25:57,903 ERROR 1494 [-/127.0.0.1/-/50ms POST /tester/add] nodejs.TypeError: ctx.model.User.save is not a function
+    at Tester.add (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:19:43)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 1494
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 15:26:16,937 INFO 1495 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:26:23,014 ERROR 1495 [-/127.0.0.1/-/27ms POST /tester/add] nodejs.TypeError: ctx.model.User.save is not a function
+    at Tester.add (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:19:43)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 1495
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 15:27:17,354 INFO 1504 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:27:22,927 INFO 1504 [egg-sequelize](71ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-02 15:27:37,247 INFO 1504 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:28:22,973 INFO 1512 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:28:57,477 INFO 1520 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:29:01,521 INFO 1520 [egg-sequelize](48ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-02 15:29:06,440 INFO 1520 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:30:09,777 INFO 1531 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:36:43,695 INFO 1551 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:37:09,445 INFO 1552 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:39:30,554 INFO 1553 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:39:49,959 INFO 1565 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:39:52,747 ERROR 1565 [-/127.0.0.1/-/46ms POST /tester/create] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at Tester.create (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:13:44)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 1565
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 15:40:03,569 INFO 1566 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:41:04,311 INFO 1574 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:41:12,222 INFO 1574 [egg-sequelize](97ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-02 15:41:12,204 INFO 1575 [egg-sequelize](11ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:41:20,490 INFO 1575 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:42:35,581 INFO 1576 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:42:49,729 INFO 1577 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:43:16,362 INFO 1577 [egg-sequelize](9ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`,`created_at`,`updated_at`) VALUES (?,?,?,?,?,?);
+2019-10-02 15:43:16,470 ERROR 1577 [-/127.0.0.1/-/206ms POST /tester/create] nodejs.SequelizeDatabaseError: Unknown column 'created_at' in 'field list'
+    at Query.formatError (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at handler (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Prepare.Commands.Prepare [as onResult] (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:595:11)
+    at Prepare.execute (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.insert (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/query-interface.js:885:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:3987:52)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at model.save (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:3964:8)
+    at Function.create (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:2225:8)
+    at Tester.create (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:24:47)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"INSERT INTO `user` (`id`,`name`,`age`,`address`,`created_at`,`updated_at`) VALUES (?,?,?,?,?,?);","parameters":["4b91e930-e4e8-11e9-880e-f172425eea44","Anna","28","湖北武汉","2019-10-02 15:43:16","2019-10-02 15:43:16"]}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"INSERT INTO `user` (`id`,`name`,`age`,`address`,`created_at`,`updated_at`) VALUES (?,?,?,?,?,?);","parameters":["4b91e930-e4e8-11e9-880e-f172425eea44","Anna","28","湖北武汉","2019-10-02 15:43:16","2019-10-02 15:43:16"]}
+sql: "INSERT INTO `user` (`id`,`name`,`age`,`address`,`created_at`,`updated_at`) VALUES (?,?,?,?,?,?);"
+parameters: ["4b91e930-e4e8-11e9-880e-f172425eea44","Anna","28","湖北武汉","2019-10-02 15:43:16","2019-10-02 15:43:16"]
+pid: 1577
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 15:45:13,178 INFO 1586 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:45:40,016 INFO 1589 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:46:31,919 INFO 1594 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:46:46,597 INFO 1595 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:46:50,368 INFO 1595 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:46:51,140 INFO 1595 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:46:51,865 INFO 1595 [egg-sequelize](6ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:46:52,368 INFO 1595 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:46:52,554 INFO 1595 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:47:54,429 INFO 1597 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 15:48:15,331 INFO 1597 [egg-sequelize](43ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-02 15:48:23,284 INFO 1597 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:49:09,203 INFO 1597 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:52:13,892 INFO 1597 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-02 15:54:29,746 INFO 1607 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:03:06,951 INFO 1678 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:04:17,670 INFO 1687 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:04:45,871 INFO 1688 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:05:08,757 ERROR 1688 [-/127.0.0.1/-/36ms PUT /tester/updateById] nodejs.AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter
+    at Function._optionsMustContainWhere (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:3426:5)
+    at Function.update (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:3052:10)
+    at Tester.update (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:32:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1688
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 16:05:47,646 INFO 1697 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:05:54,126 ERROR 1697 [-/127.0.0.1/-/30ms PUT /tester/updateById] nodejs.AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter
+    at Function._optionsMustContainWhere (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:3426:5)
+    at Function.update (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:3052:10)
+    at Tester.update (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:32:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1697
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 16:07:43,827 INFO 1712 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:07:48,447 INFO 1712 [egg-sequelize](13ms) Executed (default): UPDATE `user` SET `name`=? WHERE `id` = ?
+2019-10-02 16:08:53,309 INFO 1720 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:08:55,326 INFO 1720 [egg-sequelize](6ms) Executed (default): UPDATE `user` SET `name`=? WHERE `id` = ?
+2019-10-02 16:11:28,381 INFO 1726 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:14:00,047 INFO 1736 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:14:14,108 ERROR 1736 [-/127.0.0.1/-/28ms PATCH /tester/deleteById] nodejs.TypeError: ctx.model.User.destory is not a function
+    at Tester.delete (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:47:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 1736
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-02 16:14:43,683 INFO 1737 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:14:47,054 INFO 1737 [egg-sequelize](45ms) Executed (default): DELETE FROM `user` WHERE `id` = '018c5370-e4e8-11e9-842d-f71454b5aa59'
+2019-10-02 16:47:53,786 INFO 1798 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:48:51,730 INFO 1806 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:49:57,729 INFO 1814 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:50:24,314 INFO 1815 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:50:29,128 INFO 1815 [egg-sequelize](11ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`id` = '13443940e4e6-11e9-8e1e-9783af6e375f';
+2019-10-02 16:51:15,489 INFO 1824 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:51:58,191 INFO 1836 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:52:06,537 INFO 1836 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`id` = '13443940e4e6-11e9-8e1e-9783af6e375f';
+2019-10-02 16:53:47,933 INFO 1851 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:54:13,756 INFO 1858 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:54:35,115 INFO 1866 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-02 16:54:56,835 INFO 1866 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`id` = '13443940e4e6-11e9-8e1e-9783af6e375f';
+2019-10-03 15:24:08,439 INFO 755 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:27:52,037 INFO 785 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:30:34,423 INFO 810 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:30:38,626 INFO 810 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name` AS `age` FROM `user` AS `user` WHERE `user`.`address` = '广东%' LIMIT 1;
+2019-10-03 15:33:52,789 INFO 827 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:33:54,852 ERROR 827 [-/127.0.0.1/-/8ms GET /tester/findOneAttr] nodejs.TypeError: ctx.model.User.query is not a function
+    at Tester.findOneAttr (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:64:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 827
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-03 15:38:14,894 INFO 842 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:38:50,063 INFO 843 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:38:53,643 INFO 843 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name` AS `age` FROM `user` AS `user` WHERE `user`.`address` LIKE '%广东%' LIMIT 1;
+2019-10-03 15:40:18,220 INFO 850 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:40:19,582 INFO 850 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age` FROM `user` AS `user` WHERE `user`.`address` LIKE '%广东%' LIMIT 1;
+2019-10-03 15:40:21,060 INFO 850 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age` FROM `user` AS `user` WHERE `user`.`address` LIKE '%广东%' LIMIT 1;
+2019-10-03 15:41:16,282 INFO 851 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:41:21,541 INFO 851 [egg-sequelize](7ms) Executed (default): SELECT `id`, `name`, `age` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东%' LIMIT 1;
+2019-10-03 15:41:22,421 INFO 851 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东%' LIMIT 1;
+2019-10-03 15:41:23,097 INFO 851 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东%' LIMIT 1;
+2019-10-03 15:41:40,469 INFO 853 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:41:42,660 INFO 853 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东%';
+2019-10-03 15:48:44,497 INFO 870 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:48:48,271 INFO 870 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东%';
+2019-10-03 15:48:58,909 INFO 870 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东';
+2019-10-03 15:49:44,027 INFO 872 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:49:45,989 INFO 872 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东%';
+2019-10-03 15:50:12,743 INFO 872 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东%';
+2019-10-03 15:51:00,208 INFO 876 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:51:06,538 INFO 876 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `address` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东%';
+2019-10-03 15:51:43,760 INFO 876 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东%';
+2019-10-03 15:52:29,300 INFO 877 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:52:53,828 INFO 880 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:53:54,985 INFO 887 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:54:37,637 INFO 888 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:54:47,456 INFO 889 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:54:51,040 INFO 889 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `address` FROM `user` AS `user` WHERE `user`.`address` LIKE '广东%';
+2019-10-03 15:55:28,868 INFO 890 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:56:02,299 INFO 891 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:56:05,057 ERROR 891 [-/127.0.0.1/-/28ms GET /tester/findAnd] nodejs.TypeError: value.map is not a function
+    at MySQLQueryGenerator._whereBind (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2334:21)
+    at MySQLQueryGenerator.whereItemQuery (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2251:19)
+    at Utils.getComplexKeys.forEach.prop (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at Tester.findAnd (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:90:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 891
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-03 15:56:36,197 INFO 898 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:56:38,677 ERROR 898 [-/127.0.0.1/-/28ms GET /tester/findAnd] nodejs.TypeError: value.map is not a function
+    at MySQLQueryGenerator._whereBind (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2334:21)
+    at MySQLQueryGenerator.whereItemQuery (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2251:19)
+    at Utils.getComplexKeys.forEach.prop (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at Tester.findAnd (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:90:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 898
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-03 15:57:27,261 INFO 899 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:57:32,376 INFO 899 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `address` FROM `user` AS `user` WHERE (`user`.`age` = 22) AND `user`.`address` LIKE '广东%';
+2019-10-03 15:58:13,259 INFO 902 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 15:58:16,610 ERROR 902 [-/127.0.0.1/-/35ms GET /tester/findAnd] nodejs.Error: Invalid value { address: '广东%' }
+    at Object.escape (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sql-string.js:65:11)
+    at MySQLQueryGenerator.escape (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:986:22)
+    at MySQLQueryGenerator._whereParseSingleValueObject (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2556:41)
+    at MySQLQueryGenerator.whereItemQuery (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2274:19)
+    at Utils.getComplexKeys.forEach.prop (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at Tester.findAnd (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:90:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 902
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-03 15:58:27,184 INFO 903 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 16:05:13,157 INFO 918 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-03 16:07:05,617 INFO 922 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 11:20:52,863 INFO 1007 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 11:22:41,428 INFO 1007 [egg-sequelize](9ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:23:03,621 INFO 1007 [egg-sequelize](51ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:23:23,469 INFO 1007 [egg-sequelize](115ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:23:43,384 INFO 1007 [egg-sequelize](41ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:24:32,471 INFO 1007 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-04 11:25:05,715 INFO 1007 [egg-sequelize](49ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:25:18,162 INFO 1007 [egg-sequelize](124ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:25:40,471 INFO 1007 [egg-sequelize](43ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:26:02,320 INFO 1007 [egg-sequelize](44ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:26:40,266 INFO 1007 [egg-sequelize](43ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:26:43,836 INFO 1007 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-04 11:27:13,660 INFO 1007 [egg-sequelize](122ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:28:03,117 INFO 1007 [egg-sequelize](42ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:28:16,809 INFO 1007 [egg-sequelize](60ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:28:19,765 INFO 1007 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-04 11:29:31,741 INFO 1007 [egg-sequelize](43ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:29:45,805 INFO 1007 [egg-sequelize](44ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:30:01,149 INFO 1007 [egg-sequelize](50ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:30:29,732 INFO 1007 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-04 11:32:41,231 INFO 1007 [egg-sequelize](43ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:33:08,470 INFO 1007 [egg-sequelize](120ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:33:30,766 INFO 1007 [egg-sequelize](42ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:33:51,563 INFO 1007 [egg-sequelize](45ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:34:20,486 INFO 1007 [egg-sequelize](41ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:34:27,686 INFO 1007 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-04 11:43:05,431 INFO 1007 [egg-sequelize](5ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:43:08,612 INFO 1007 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-04 11:44:16,781 INFO 1007 [egg-sequelize](44ms) Executed (default): INSERT INTO `user` (`id`,`name`,`age`,`address`) VALUES (?,?,?,?);
+2019-10-04 11:54:43,622 INFO 1195 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 11:54:56,334 INFO 1195 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` BETWEEN 18 AND 30 AND `user`.`name` LIKE '%江苏' LIMIT 1;
+2019-10-04 11:55:48,303 INFO 1202 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 11:55:52,854 INFO 1202 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` BETWEEN 18 AND 30 AND `user`.`name` LIKE '%江苏' LIMIT 1;
+2019-10-04 11:56:05,624 INFO 1203 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 11:56:15,754 INFO 1203 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` BETWEEN 18 AND 30 LIMIT 1;
+2019-10-04 11:56:32,396 INFO 1204 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 11:56:35,538 INFO 1204 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` BETWEEN 18 AND 30;
+2019-10-04 11:56:50,906 INFO 1205 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 11:56:52,107 INFO 1205 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` BETWEEN 18 AND 22;
+2019-10-04 11:58:52,259 INFO 1219 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 11:58:55,592 INFO 1219 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` < 60;
+2019-10-04 11:59:27,797 INFO 1224 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 11:59:41,260 INFO 1224 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 60;
+2019-10-04 11:59:53,820 INFO 1225 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 12:00:25,828 INFO 1227 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 12:00:28,512 INFO 1227 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` NOT BETWEEN 10 AND 36;
+2019-10-04 12:00:45,094 INFO 1228 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 12:00:48,557 INFO 1228 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` NOT BETWEEN 10 AND 50;
+2019-10-04 12:08:20,771 INFO 1239 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 12:09:05,370 INFO 1241 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 12:09:19,498 INFO 1241 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';
+2019-10-04 12:09:19,535 ERROR 1241 [-/127.0.0.1/-/59ms GET /tester/getByPager?pageIndex=1&pageSize=5] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1
+    at Query.formatError (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/query-interface.js:1120:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at Tester.getByPager (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:137:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1","sql":"SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1","sql":"SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';"}
+sql: "SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';"
+parameters: undefined
+pid: 1241
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-04 12:11:24,170 INFO 1250 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 12:11:30,319 INFO 1250 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';
+2019-10-04 12:11:30,354 ERROR 1250 [-/127.0.0.1/-/44ms GET /tester/getByPager?pageIndex=1&pageSize=5] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1
+    at Query.formatError (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/query-interface.js:1120:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at Tester.getByPager (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:138:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1","sql":"SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1","sql":"SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';"}
+sql: "SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';"
+parameters: undefined
+pid: 1250
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-04 12:12:32,521 INFO 1253 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 13:03:07,928 INFO 1294 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 13:03:11,988 INFO 1294 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';
+2019-10-04 13:03:12,027 ERROR 1294 [-/127.0.0.1/-/51ms GET /tester/getByPager?pageIndex=1&pageSize=5] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1
+    at Query.formatError (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/query-interface.js:1120:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at Tester.getByPager (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:137:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1","sql":"SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1","sql":"SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';"}
+sql: "SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT 0, '5';"
+parameters: undefined
+pid: 1294
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-04 13:07:35,664 INFO 1316 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 13:07:39,653 INFO 1316 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user`;
+2019-10-04 19:42:09,369 INFO 1363 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:42:11,723 INFO 1363 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user`;
+2019-10-04 19:43:43,653 INFO 1364 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:45:14,365 INFO 1381 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:45:18,261 INFO 1381 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT '(1 - 1) * 5, 5';
+2019-10-04 19:45:18,304 ERROR 1381 [-/127.0.0.1/-/58ms GET /tester/getByPager?pageIndex=1&pageSize=5] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''(1 - 1) * 5, 5'' at line 1
+    at Query.formatError (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/query-interface.js:1120:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at Tester.getByPager (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:138:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''(1 - 1) * 5, 5'' at line 1","sql":"SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT '(1 - 1) * 5, 5';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''(1 - 1) * 5, 5'' at line 1","sql":"SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT '(1 - 1) * 5, 5';"}
+sql: "SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT '(1 - 1) * 5, 5';"
+parameters: undefined
+pid: 1381
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-04 19:46:10,843 INFO 1382 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:46:39,388 INFO 1383 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:46:50,786 INFO 1383 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT '5';
+2019-10-04 19:46:50,827 ERROR 1383 [-/127.0.0.1/-/57ms GET /tester/getByPager?pageIndex=1&pageSize=5] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1
+    at Query.formatError (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/query-interface.js:1120:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at Tester.getByPager (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:138:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1","sql":"SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT '5';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5'' at line 1","sql":"SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT '5';"}
+sql: "SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` LIMIT '5';"
+parameters: undefined
+pid: 1383
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-04 19:49:02,138 INFO 1384 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:49:19,399 INFO 1395 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:49:20,796 ERROR 1395 [-/127.0.0.1/-/13ms GET /tester/getByPager?pageIndex=1&pageSize=5] nodejs.TypeError: ctx.model.User.query is not a function
+    at Tester.getByPager (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:138:30)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 1395
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-04 19:51:12,673 INFO 1400 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:51:48,142 INFO 1401 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:52:01,279 INFO 1401 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user`;
+2019-10-04 19:52:01,293 INFO 1401 [egg-sequelize](15ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-04 19:53:02,912 INFO 1402 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:53:08,790 INFO 1402 [egg-sequelize](10ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user`;
+2019-10-04 19:53:08,801 INFO 1402 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user`;
+2019-10-04 19:53:47,212 INFO 1404 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:57:32,383 INFO 1415 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:57:37,553 INFO 1415 [egg-sequelize](5ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 19:57:37,556 INFO 1415 [egg-sequelize](6ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 19:57:37,558 INFO 1415 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 19:58:39,006 INFO 1428 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:58:47,931 INFO 1429 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:58:54,799 INFO 1429 [egg-sequelize](2ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 19:58:54,804 INFO 1429 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 19:58:54,806 INFO 1429 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 19:59:43,375 INFO 1431 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 19:59:45,257 INFO 1431 [egg-sequelize](2ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 19:59:45,265 INFO 1431 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 19:59:45,270 INFO 1431 [egg-sequelize](6ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:00:06,662 INFO 1432 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:00:19,110 INFO 1432 [egg-sequelize](5ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:00:19,112 INFO 1432 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:00:19,113 INFO 1432 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:01:29,877 INFO 1441 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:01:35,410 INFO 1441 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:01:35,418 INFO 1441 [egg-sequelize](1ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:01:35,421 INFO 1441 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:02:49,021 INFO 1442 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:02:51,422 INFO 1442 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:02:51,428 INFO 1442 [egg-sequelize](1ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:02:51,433 INFO 1442 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:06:05,480 INFO 1447 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:06:07,438 INFO 1447 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:06:07,445 INFO 1447 [egg-sequelize](1ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:06:07,448 INFO 1447 [egg-sequelize](2ms) Executed (default): SELECT min(`age`) AS `min` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:06:07,456 INFO 1447 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:06:43,331 INFO 1452 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:06:46,594 INFO 1452 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:06:46,599 INFO 1452 [egg-sequelize](1ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:06:46,610 INFO 1452 [egg-sequelize](6ms) Executed (default): SELECT min(`age`) AS `min` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:06:46,616 INFO 1452 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:15:54,800 INFO 1475 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:15:57,369 INFO 1475 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:15:57,376 INFO 1475 [egg-sequelize](2ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:15:57,378 INFO 1475 [egg-sequelize](1ms) Executed (default): SELECT min(`age`) AS `min` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:15:57,381 INFO 1475 [egg-sequelize](1ms) Executed (default): SELECT sum(`age`) AS `sum` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:15:57,386 INFO 1475 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:25:00,746 INFO 1491 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:25:30,407 INFO 1505 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:27:28,564 INFO 1507 [egg-sequelize](7ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:30:46,257 INFO 1522 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:30:56,108 INFO 1522 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:30:56,113 INFO 1522 [egg-sequelize](2ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:30:56,116 INFO 1522 [egg-sequelize](1ms) Executed (default): SELECT min(`age`) AS `min` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:30:56,119 INFO 1522 [egg-sequelize](1ms) Executed (default): SELECT sum(`age`) AS `sum` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:30:56,123 INFO 1522 [egg-sequelize](2ms) Executed (default): select * from user where age = 80
+2019-10-04 20:30:56,134 INFO 1522 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:34:27,323 INFO 1527 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:37:29,332 INFO 1533 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:37:47,900 INFO 1533 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:37:47,905 INFO 1533 [egg-sequelize](1ms) Executed (default): SELECT max(`age`) AS `max` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:37:47,908 INFO 1533 [egg-sequelize](1ms) Executed (default): SELECT min(`age`) AS `min` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:37:47,910 INFO 1533 [egg-sequelize](1ms) Executed (default): SELECT sum(`age`) AS `sum` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:37:47,917 INFO 1533 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `address` FROM `user` AS `user` WHERE `user`.`age` > 50;
+2019-10-04 20:38:01,813 INFO 1533 [egg-sequelize](0ms) Executed (default): select * from user where age between 18, 28 order by age
+2019-10-04 20:38:01,863 ERROR 1533 [-/127.0.0.1/-/47ms GET /tester/query] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', 28 order by age' at line 1
+    at Query.formatError (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Desktop/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Desktop/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+    at Sequelize.query (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Tester.query (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:155:25)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Desktop/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Tester.query (/Users/zhudapeng/Desktop/egg-learn/app/controller/tester.ts:155:25)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Desktop/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/Users/zhudapeng/Desktop/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', 28 order by age' at line 1","sql":"select * from user where age between 18, 28 order by age"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', 28 order by age' at line 1","sql":"select * from user where age between 18, 28 order by age"}
+sql: "select * from user where age between 18, 28 order by age"
+parameters: undefined
+pid: 1533
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-04 20:38:19,094 INFO 1534 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:38:25,569 INFO 1534 [egg-sequelize](3ms) Executed (default): select * from user where age between 18 and 28 order by age
+2019-10-04 20:38:47,219 INFO 1535 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 20:38:49,312 INFO 1535 [egg-sequelize](1ms) Executed (default): select * from user where age between 18 and 28 order by age desc
+2019-10-04 21:19:34,780 INFO 1655 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-10-04 21:19:35,842 INFO 1655 [egg-sequelize](2ms) Executed (default): select * from user where age between 18 and 28 order by age desc
+2019-10-04 21:19:36,704 INFO 1655 [egg-sequelize](2ms) Executed (default): select * from user where age between 18 and 28 order by age desc
+2019-10-05 00:15:05,935 INFO 955 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
