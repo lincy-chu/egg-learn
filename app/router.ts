@@ -118,6 +118,8 @@ export default (app: Application) => {
 
   // 自定义查询
   router.get('/tester/query', controller.tester.query);
+  // 一对一跨表查询
+  router.get('/userOne', controller.userOne.getUserListIncludeInfo);
 
   // 复杂参数的获取, /search/package/regex，例如：http://127.0.0.1:8080/search/robin/1.0.1
   // router.get(/^\/([\w-.]+\/[\w-.]+)$/, controller.search.detail);

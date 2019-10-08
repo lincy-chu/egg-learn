@@ -19,8 +19,8 @@ export default (appInfo: EggAppInfo) => {
   // config port 配置端口号
   config.cluster = {
       listen: {
-          port: 8080
-      }
+          port: 8080,
+      },
   };
 
   // add mysql
@@ -35,8 +35,8 @@ export default (appInfo: EggAppInfo) => {
       timezone: '+08:00',
       pool: {
           max: 20,
-          idle: 3000
-      }
+          idle: 3000,
+      },
   };
 
   // security

@@ -4,7 +4,7 @@
  */
 module.exports = app => {
     const { STRING, TINYINT } = app.Sequelize;
-    const User= app.model.define('user', {
+    const User = app.model.define('user', {
         id: { type: STRING(36), primaryKey: true, autoIncrement: false},
         name: STRING(10),
         age: TINYINT(3),

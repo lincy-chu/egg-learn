@@ -1168,3 +1168,63 @@
 2019-10-05 00:15:05,975 INFO 947 [Timer] /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 15294038ms at 2019-10-05 04:30:00.012
 2019-10-05 00:15:05,978 INFO 947 [Timer] /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 85494025ms at 2019-10-06 00:00:00.002
 2019-10-05 00:15:05,980 INFO 947 [Timer] /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 85495022ms at 2019-10-06 00:00:01.002
+2019-10-08 21:25:41,693 INFO 1379 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 21:25:41,693 INFO 1379 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 21:25:41,693 INFO 1379 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 21:25:42,528 INFO 1378 [Timer] /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 25457479ms at 2019-10-09 04:30:00.007
+2019-10-08 21:25:42,529 INFO 1378 [Timer] /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 9257472ms at 2019-10-09 00:00:00.001
+2019-10-08 21:25:42,529 INFO 1378 [Timer] /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 9258471ms at 2019-10-09 00:00:01.000
+2019-10-08 22:05:17,027 INFO 1505 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 22:05:17,027 INFO 1505 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 22:05:17,027 INFO 1505 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 22:05:19,416 INFO 1524 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 22:05:19,416 INFO 1524 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 22:05:19,416 INFO 1524 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 22:30:14,371 INFO 1637 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 22:30:14,371 INFO 1637 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 22:30:14,371 INFO 1637 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 22:36:17,358 INFO 1658 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 22:36:17,358 INFO 1658 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 22:36:17,358 INFO 1658 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 22:36:52,129 INFO 1677 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 22:36:52,129 INFO 1677 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 22:36:52,129 INFO 1677 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 22:43:32,285 INFO 1695 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 22:43:32,285 INFO 1695 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 22:43:32,285 INFO 1695 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 22:44:15,120 INFO 1708 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 22:44:15,120 INFO 1708 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 22:44:15,120 INFO 1708 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 22:54:16,040 INFO 1748 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 22:54:16,040 INFO 1748 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 22:54:16,040 INFO 1748 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 22:55:43,307 INFO 1778 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 22:55:43,307 INFO 1778 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 22:55:43,307 INFO 1778 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 22:55:43,843 INFO 1777 [Timer] /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20056166ms at 2019-10-09 04:30:00.009
+2019-10-08 22:55:43,844 INFO 1777 [Timer] /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 3856156ms at 2019-10-09 00:00:00.000
+2019-10-08 22:55:43,845 INFO 1777 [Timer] /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 3857155ms at 2019-10-09 00:00:01.000
+2019-10-08 23:04:55,660 INFO 1801 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 23:04:55,660 INFO 1801 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 23:04:55,660 INFO 1801 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 23:05:35,018 INFO 1811 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 23:05:35,018 INFO 1811 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 23:05:35,018 INFO 1811 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 23:05:48,936 INFO 1820 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 23:05:48,937 INFO 1820 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 23:05:48,937 INFO 1820 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 23:06:08,141 INFO 1828 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 23:06:08,141 INFO 1828 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 23:06:08,141 INFO 1828 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 23:08:48,310 INFO 1840 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 23:08:48,310 INFO 1840 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 23:08:48,310 INFO 1840 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 23:08:58,435 INFO 1844 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 23:08:58,435 INFO 1844 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 23:08:58,435 INFO 1844 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 23:10:04,392 INFO 1863 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 23:10:04,392 INFO 1863 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 23:10:04,392 INFO 1863 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-08 23:10:35,512 INFO 1873 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-08 23:10:35,512 INFO 1873 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-08 23:10:35,512 INFO 1873 [egg-schedule]: register schedule /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

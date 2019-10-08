@@ -4005,3 +4005,237 @@
 2019-10-05 00:15:05,795 INFO 955 [egg:core] dump config after load, 5ms
 2019-10-05 00:15:05,848 INFO 955 [egg-watcher:application] watcher start success
 2019-10-05 00:15:05,950 INFO 955 [egg:core] dump config after ready, 7ms
+2019-10-08 21:25:41,634 INFO 1379 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 21:25:41,694 INFO 1379 [egg-multipart] stream mode enable
+2019-10-08 21:25:42,069 INFO 1379 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 21:25:42,072 INFO 1379 [egg-security] use methodnoallow middleware
+2019-10-08 21:25:42,073 INFO 1379 [egg-security] use noopen middleware
+2019-10-08 21:25:42,074 INFO 1379 [egg-security] use nosniff middleware
+2019-10-08 21:25:42,074 INFO 1379 [egg-security] use xssProtection middleware
+2019-10-08 21:25:42,075 INFO 1379 [egg-security] use xframe middleware
+2019-10-08 21:25:42,076 INFO 1379 [egg-security] use dta middleware
+2019-10-08 21:25:42,076 INFO 1379 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 21:25:42,321 INFO 1379 [egg:core] dump config after load, 6ms
+2019-10-08 21:25:42,380 INFO 1379 [egg-watcher:application] watcher start success
+2019-10-08 21:25:42,515 INFO 1379 [egg:core] dump config after ready, 33ms
+2019-10-08 22:05:16,969 INFO 1505 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 22:05:17,028 INFO 1505 [egg-multipart] stream mode enable
+2019-10-08 22:05:17,514 INFO 1505 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 22:05:17,516 INFO 1505 [egg-security] use methodnoallow middleware
+2019-10-08 22:05:17,517 INFO 1505 [egg-security] use noopen middleware
+2019-10-08 22:05:17,518 INFO 1505 [egg-security] use nosniff middleware
+2019-10-08 22:05:17,518 INFO 1505 [egg-security] use xssProtection middleware
+2019-10-08 22:05:17,519 INFO 1505 [egg-security] use xframe middleware
+2019-10-08 22:05:17,519 INFO 1505 [egg-security] use dta middleware
+2019-10-08 22:05:17,519 INFO 1505 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 22:05:17,795 INFO 1505 [egg:core] dump config after load, 9ms
+2019-10-08 22:05:17,877 INFO 1505 [egg-watcher:application] watcher start success
+2019-10-08 22:05:17,918 INFO 1505 [egg:core] dump config after ready, 15ms
+2019-10-08 22:05:19,366 INFO 1524 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 22:05:19,417 INFO 1524 [egg-multipart] stream mode enable
+2019-10-08 22:05:19,763 INFO 1524 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 22:05:19,766 INFO 1524 [egg-security] use methodnoallow middleware
+2019-10-08 22:05:19,766 INFO 1524 [egg-security] use noopen middleware
+2019-10-08 22:05:19,766 INFO 1524 [egg-security] use nosniff middleware
+2019-10-08 22:05:19,767 INFO 1524 [egg-security] use xssProtection middleware
+2019-10-08 22:05:19,767 INFO 1524 [egg-security] use xframe middleware
+2019-10-08 22:05:19,767 INFO 1524 [egg-security] use dta middleware
+2019-10-08 22:05:19,767 INFO 1524 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 22:05:19,797 INFO 1524 [egg:core] dump config after load, 13ms
+2019-10-08 22:05:19,896 INFO 1524 [egg-watcher:application] watcher start success
+2019-10-08 22:05:20,009 INFO 1524 [egg:core] dump config after ready, 23ms
+2019-10-08 22:30:14,329 INFO 1637 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 22:30:14,372 INFO 1637 [egg-multipart] stream mode enable
+2019-10-08 22:30:16,772 INFO 1637 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 22:30:16,775 INFO 1637 [egg-security] use methodnoallow middleware
+2019-10-08 22:30:16,775 INFO 1637 [egg-security] use noopen middleware
+2019-10-08 22:30:16,776 INFO 1637 [egg-security] use nosniff middleware
+2019-10-08 22:30:16,777 INFO 1637 [egg-security] use xssProtection middleware
+2019-10-08 22:30:16,777 INFO 1637 [egg-security] use xframe middleware
+2019-10-08 22:30:16,778 INFO 1637 [egg-security] use dta middleware
+2019-10-08 22:30:16,778 INFO 1637 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 22:30:17,022 INFO 1637 [egg:core] dump config after load, 5ms
+2019-10-08 22:30:17,077 INFO 1637 [egg-watcher:application] watcher start success
+2019-10-08 22:30:17,106 INFO 1637 [egg:core] dump config after ready, 5ms
+2019-10-08 22:36:17,316 INFO 1658 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 22:36:17,358 INFO 1658 [egg-multipart] stream mode enable
+2019-10-08 22:36:17,743 INFO 1658 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 22:36:17,745 INFO 1658 [egg-security] use methodnoallow middleware
+2019-10-08 22:36:17,745 INFO 1658 [egg-security] use noopen middleware
+2019-10-08 22:36:17,746 INFO 1658 [egg-security] use nosniff middleware
+2019-10-08 22:36:17,746 INFO 1658 [egg-security] use xssProtection middleware
+2019-10-08 22:36:17,746 INFO 1658 [egg-security] use xframe middleware
+2019-10-08 22:36:17,747 INFO 1658 [egg-security] use dta middleware
+2019-10-08 22:36:17,747 INFO 1658 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 22:36:18,019 INFO 1658 [egg:core] dump config after load, 14ms
+2019-10-08 22:36:18,070 INFO 1658 [egg-watcher:application] watcher start success
+2019-10-08 22:36:18,140 INFO 1658 [egg:core] dump config after ready, 11ms
+2019-10-08 22:36:52,087 INFO 1677 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 22:36:52,129 INFO 1677 [egg-multipart] stream mode enable
+2019-10-08 22:36:52,462 INFO 1677 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 22:36:52,465 INFO 1677 [egg-security] use methodnoallow middleware
+2019-10-08 22:36:52,466 INFO 1677 [egg-security] use noopen middleware
+2019-10-08 22:36:52,466 INFO 1677 [egg-security] use nosniff middleware
+2019-10-08 22:36:52,466 INFO 1677 [egg-security] use xssProtection middleware
+2019-10-08 22:36:52,467 INFO 1677 [egg-security] use xframe middleware
+2019-10-08 22:36:52,467 INFO 1677 [egg-security] use dta middleware
+2019-10-08 22:36:52,467 INFO 1677 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 22:36:55,609 INFO 1677 [egg:core] dump config after load, 15ms
+2019-10-08 22:36:55,656 INFO 1677 [egg-watcher:application] watcher start success
+2019-10-08 22:36:55,694 INFO 1677 [egg:core] dump config after ready, 8ms
+2019-10-08 22:43:32,241 INFO 1695 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 22:43:32,286 INFO 1695 [egg-multipart] stream mode enable
+2019-10-08 22:43:32,605 INFO 1695 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 22:43:32,607 INFO 1695 [egg-security] use methodnoallow middleware
+2019-10-08 22:43:32,608 INFO 1695 [egg-security] use noopen middleware
+2019-10-08 22:43:32,608 INFO 1695 [egg-security] use nosniff middleware
+2019-10-08 22:43:32,608 INFO 1695 [egg-security] use xssProtection middleware
+2019-10-08 22:43:32,609 INFO 1695 [egg-security] use xframe middleware
+2019-10-08 22:43:32,609 INFO 1695 [egg-security] use dta middleware
+2019-10-08 22:43:32,609 INFO 1695 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 22:43:35,074 INFO 1695 [egg:core] dump config after load, 6ms
+2019-10-08 22:43:35,127 INFO 1695 [egg-watcher:application] watcher start success
+2019-10-08 22:43:35,195 INFO 1695 [egg:core] dump config after ready, 9ms
+2019-10-08 22:44:15,083 INFO 1708 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 22:44:15,121 INFO 1708 [egg-multipart] stream mode enable
+2019-10-08 22:44:15,467 INFO 1708 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 22:44:15,470 INFO 1708 [egg-security] use methodnoallow middleware
+2019-10-08 22:44:15,470 INFO 1708 [egg-security] use noopen middleware
+2019-10-08 22:44:15,471 INFO 1708 [egg-security] use nosniff middleware
+2019-10-08 22:44:15,471 INFO 1708 [egg-security] use xssProtection middleware
+2019-10-08 22:44:15,471 INFO 1708 [egg-security] use xframe middleware
+2019-10-08 22:44:15,472 INFO 1708 [egg-security] use dta middleware
+2019-10-08 22:44:15,472 INFO 1708 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 22:44:17,445 INFO 1708 [egg:core] dump config after load, 5ms
+2019-10-08 22:44:17,494 INFO 1708 [egg-watcher:application] watcher start success
+2019-10-08 22:44:17,546 INFO 1708 [egg:core] dump config after ready, 20ms
+2019-10-08 22:54:15,998 INFO 1748 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 22:54:16,040 INFO 1748 [egg-multipart] stream mode enable
+2019-10-08 22:54:16,462 INFO 1748 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 22:54:16,465 INFO 1748 [egg-security] use methodnoallow middleware
+2019-10-08 22:54:16,466 INFO 1748 [egg-security] use noopen middleware
+2019-10-08 22:54:16,467 INFO 1748 [egg-security] use nosniff middleware
+2019-10-08 22:54:16,467 INFO 1748 [egg-security] use xssProtection middleware
+2019-10-08 22:54:16,468 INFO 1748 [egg-security] use xframe middleware
+2019-10-08 22:54:16,469 INFO 1748 [egg-security] use dta middleware
+2019-10-08 22:54:16,469 INFO 1748 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 22:54:16,493 INFO 1748 [egg:core] dump config after load, 6ms
+2019-10-08 22:54:16,564 INFO 1748 [egg-watcher:application] watcher start success
+2019-10-08 22:54:16,624 INFO 1748 [egg:core] dump config after ready, 13ms
+2019-10-08 22:55:43,257 INFO 1778 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 22:55:43,308 INFO 1778 [egg-multipart] stream mode enable
+2019-10-08 22:55:43,677 INFO 1778 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 22:55:43,680 INFO 1778 [egg-security] use methodnoallow middleware
+2019-10-08 22:55:43,681 INFO 1778 [egg-security] use noopen middleware
+2019-10-08 22:55:43,682 INFO 1778 [egg-security] use nosniff middleware
+2019-10-08 22:55:43,682 INFO 1778 [egg-security] use xssProtection middleware
+2019-10-08 22:55:43,683 INFO 1778 [egg-security] use xframe middleware
+2019-10-08 22:55:43,684 INFO 1778 [egg-security] use dta middleware
+2019-10-08 22:55:43,684 INFO 1778 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 22:55:43,715 INFO 1778 [egg:core] dump config after load, 7ms
+2019-10-08 22:55:43,781 INFO 1778 [egg-watcher:application] watcher start success
+2019-10-08 22:55:43,829 INFO 1778 [egg:core] dump config after ready, 5ms
+2019-10-08 23:04:55,611 INFO 1801 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 23:04:55,661 INFO 1801 [egg-multipart] stream mode enable
+2019-10-08 23:04:56,096 INFO 1801 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 23:04:56,099 INFO 1801 [egg-security] use methodnoallow middleware
+2019-10-08 23:04:56,100 INFO 1801 [egg-security] use noopen middleware
+2019-10-08 23:04:56,100 INFO 1801 [egg-security] use nosniff middleware
+2019-10-08 23:04:56,101 INFO 1801 [egg-security] use xssProtection middleware
+2019-10-08 23:04:56,102 INFO 1801 [egg-security] use xframe middleware
+2019-10-08 23:04:56,102 INFO 1801 [egg-security] use dta middleware
+2019-10-08 23:04:56,102 INFO 1801 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 23:04:58,340 INFO 1801 [egg:core] dump config after load, 10ms
+2019-10-08 23:04:58,431 INFO 1801 [egg-watcher:application] watcher start success
+2019-10-08 23:04:58,496 INFO 1801 [egg:core] dump config after ready, 36ms
+2019-10-08 23:05:34,957 INFO 1811 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 23:05:35,019 INFO 1811 [egg-multipart] stream mode enable
+2019-10-08 23:05:35,498 INFO 1811 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 23:05:35,500 INFO 1811 [egg-security] use methodnoallow middleware
+2019-10-08 23:05:35,501 INFO 1811 [egg-security] use noopen middleware
+2019-10-08 23:05:35,502 INFO 1811 [egg-security] use nosniff middleware
+2019-10-08 23:05:35,503 INFO 1811 [egg-security] use xssProtection middleware
+2019-10-08 23:05:35,504 INFO 1811 [egg-security] use xframe middleware
+2019-10-08 23:05:35,504 INFO 1811 [egg-security] use dta middleware
+2019-10-08 23:05:35,504 INFO 1811 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 23:05:37,622 INFO 1811 [egg:core] dump config after load, 7ms
+2019-10-08 23:05:37,679 INFO 1811 [egg-watcher:application] watcher start success
+2019-10-08 23:05:37,710 INFO 1811 [egg:core] dump config after ready, 9ms
+2019-10-08 23:05:48,890 INFO 1820 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 23:05:48,937 INFO 1820 [egg-multipart] stream mode enable
+2019-10-08 23:05:49,305 INFO 1820 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 23:05:49,308 INFO 1820 [egg-security] use methodnoallow middleware
+2019-10-08 23:05:49,309 INFO 1820 [egg-security] use noopen middleware
+2019-10-08 23:05:49,309 INFO 1820 [egg-security] use nosniff middleware
+2019-10-08 23:05:49,310 INFO 1820 [egg-security] use xssProtection middleware
+2019-10-08 23:05:49,310 INFO 1820 [egg-security] use xframe middleware
+2019-10-08 23:05:49,310 INFO 1820 [egg-security] use dta middleware
+2019-10-08 23:05:49,311 INFO 1820 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 23:05:51,345 INFO 1820 [egg:core] dump config after load, 6ms
+2019-10-08 23:05:51,400 INFO 1820 [egg-watcher:application] watcher start success
+2019-10-08 23:05:51,428 INFO 1820 [egg:core] dump config after ready, 4ms
+2019-10-08 23:06:08,056 INFO 1828 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 23:06:08,142 INFO 1828 [egg-multipart] stream mode enable
+2019-10-08 23:06:08,551 INFO 1828 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 23:06:08,556 INFO 1828 [egg-security] use methodnoallow middleware
+2019-10-08 23:06:08,556 INFO 1828 [egg-security] use noopen middleware
+2019-10-08 23:06:08,557 INFO 1828 [egg-security] use nosniff middleware
+2019-10-08 23:06:08,557 INFO 1828 [egg-security] use xssProtection middleware
+2019-10-08 23:06:08,558 INFO 1828 [egg-security] use xframe middleware
+2019-10-08 23:06:08,558 INFO 1828 [egg-security] use dta middleware
+2019-10-08 23:06:08,558 INFO 1828 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 23:06:10,759 INFO 1828 [egg:core] dump config after load, 7ms
+2019-10-08 23:06:10,814 INFO 1828 [egg-watcher:application] watcher start success
+2019-10-08 23:06:10,854 INFO 1828 [egg:core] dump config after ready, 17ms
+2019-10-08 23:08:48,270 INFO 1840 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 23:08:48,311 INFO 1840 [egg-multipart] stream mode enable
+2019-10-08 23:08:48,607 INFO 1840 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 23:08:48,609 INFO 1840 [egg-security] use methodnoallow middleware
+2019-10-08 23:08:48,609 INFO 1840 [egg-security] use noopen middleware
+2019-10-08 23:08:48,610 INFO 1840 [egg-security] use nosniff middleware
+2019-10-08 23:08:48,610 INFO 1840 [egg-security] use xssProtection middleware
+2019-10-08 23:08:48,610 INFO 1840 [egg-security] use xframe middleware
+2019-10-08 23:08:48,611 INFO 1840 [egg-security] use dta middleware
+2019-10-08 23:08:48,611 INFO 1840 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 23:08:50,575 INFO 1840 [egg:core] dump config after load, 5ms
+2019-10-08 23:08:50,668 INFO 1840 [egg-watcher:application] watcher start success
+2019-10-08 23:08:50,697 INFO 1840 [egg:core] dump config after ready, 4ms
+2019-10-08 23:08:58,390 INFO 1844 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 23:08:58,436 INFO 1844 [egg-multipart] stream mode enable
+2019-10-08 23:08:58,774 INFO 1844 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 23:08:58,776 INFO 1844 [egg-security] use methodnoallow middleware
+2019-10-08 23:08:58,777 INFO 1844 [egg-security] use noopen middleware
+2019-10-08 23:08:58,777 INFO 1844 [egg-security] use nosniff middleware
+2019-10-08 23:08:58,777 INFO 1844 [egg-security] use xssProtection middleware
+2019-10-08 23:08:58,778 INFO 1844 [egg-security] use xframe middleware
+2019-10-08 23:08:58,778 INFO 1844 [egg-security] use dta middleware
+2019-10-08 23:08:58,778 INFO 1844 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 23:09:01,044 INFO 1844 [egg:core] dump config after load, 36ms
+2019-10-08 23:09:01,126 INFO 1844 [egg-watcher:application] watcher start success
+2019-10-08 23:09:01,243 INFO 1844 [egg:core] dump config after ready, 17ms
+2019-10-08 23:10:04,345 INFO 1863 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 23:10:04,392 INFO 1863 [egg-multipart] stream mode enable
+2019-10-08 23:10:04,695 INFO 1863 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 23:10:04,697 INFO 1863 [egg-security] use methodnoallow middleware
+2019-10-08 23:10:04,697 INFO 1863 [egg-security] use noopen middleware
+2019-10-08 23:10:04,700 INFO 1863 [egg-security] use nosniff middleware
+2019-10-08 23:10:04,702 INFO 1863 [egg-security] use xssProtection middleware
+2019-10-08 23:10:04,703 INFO 1863 [egg-security] use xframe middleware
+2019-10-08 23:10:04,704 INFO 1863 [egg-security] use dta middleware
+2019-10-08 23:10:04,704 INFO 1863 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 23:10:06,674 INFO 1863 [egg:core] dump config after load, 5ms
+2019-10-08 23:10:06,745 INFO 1863 [egg-watcher:application] watcher start success
+2019-10-08 23:10:06,783 INFO 1863 [egg:core] dump config after ready, 12ms
+2019-10-08 23:10:35,468 INFO 1873 [egg:logger] init all loggers with options: {"dir":"/Users/zhudapeng/Documents/GitHub/egg-learn/logs/egg-lean","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-lean-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-08 23:10:35,512 INFO 1873 [egg-multipart] stream mode enable
+2019-10-08 23:10:36,060 INFO 1873 [egg-static] starting static serve /public/ -> /Users/zhudapeng/Documents/GitHub/egg-learn/app/public
+2019-10-08 23:10:36,063 INFO 1873 [egg-security] use methodnoallow middleware
+2019-10-08 23:10:36,063 INFO 1873 [egg-security] use noopen middleware
+2019-10-08 23:10:36,064 INFO 1873 [egg-security] use nosniff middleware
+2019-10-08 23:10:36,064 INFO 1873 [egg-security] use xssProtection middleware
+2019-10-08 23:10:36,064 INFO 1873 [egg-security] use xframe middleware
+2019-10-08 23:10:36,064 INFO 1873 [egg-security] use dta middleware
+2019-10-08 23:10:36,064 INFO 1873 [egg-security] compose 6 middlewares into one security middleware
+2019-10-08 23:10:36,090 INFO 1873 [egg:core] dump config after load, 7ms
+2019-10-08 23:10:36,178 INFO 1873 [egg-watcher:application] watcher start success
+2019-10-08 23:10:36,223 INFO 1873 [egg:core] dump config after ready, 5ms

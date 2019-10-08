@@ -1425,3 +1425,87 @@ parameters: undefined
 pid: 1533
 hostname: zhudapengdeMacBook-Pro.local
 
+2019-10-08 23:10:10,989 ERROR 1863 [-/127.0.0.1/-/89ms GET /userOne] nodejs.SequelizeDatabaseError: Unknown column 'Info.orderBy' in 'on clause'
+    at Query.formatError (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/query-interface.js:1120:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at UserOneController.getUserListIncludeInfo (/Users/zhudapeng/Documents/GitHub/egg-learn/app/controller/userOne.ts:22:54)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'Info.orderBy' in 'on clause'","sql":"SELECT `user_one`.`id`, `user_one`.`username`, `user_one`.`created_at` AS `createdAt`, `user_one`.`updated_at` AS `updatedAt`, `Info`.`id` AS `Info.id`, `Info`.`age` AS `Info.age`, `Info`.`address` AS `Info.address`, `Info`.`created_at` AS `Info.createdAt`, `Info`.`updated_at` AS `Info.updatedAt`, `Info`.`user_id` AS `Info.user_id` FROM `user_one` AS `user_one` LEFT OUTER JOIN `user_info` AS `Info` ON `user_one`.`id` = `Info`.`user_id` AND `Info`.`age` >= 50 AND `Info`.`orderBy` = 'created_time';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'Info.orderBy' in 'on clause'","sql":"SELECT `user_one`.`id`, `user_one`.`username`, `user_one`.`created_at` AS `createdAt`, `user_one`.`updated_at` AS `updatedAt`, `Info`.`id` AS `Info.id`, `Info`.`age` AS `Info.age`, `Info`.`address` AS `Info.address`, `Info`.`created_at` AS `Info.createdAt`, `Info`.`updated_at` AS `Info.updatedAt`, `Info`.`user_id` AS `Info.user_id` FROM `user_one` AS `user_one` LEFT OUTER JOIN `user_info` AS `Info` ON `user_one`.`id` = `Info`.`user_id` AND `Info`.`age` >= 50 AND `Info`.`orderBy` = 'created_time';"}
+sql: "SELECT `user_one`.`id`, `user_one`.`username`, `user_one`.`created_at` AS `createdAt`, `user_one`.`updated_at` AS `updatedAt`, `Info`.`id` AS `Info.id`, `Info`.`age` AS `Info.age`, `Info`.`address` AS `Info.address`, `Info`.`created_at` AS `Info.createdAt`, `Info`.`updated_at` AS `Info.updatedAt`, `Info`.`user_id` AS `Info.user_id` FROM `user_one` AS `user_one` LEFT OUTER JOIN `user_info` AS `Info` ON `user_one`.`id` = `Info`.`user_id` AND `Info`.`age` >= 50 AND `Info`.`orderBy` = 'created_time';"
+parameters: undefined
+pid: 1863
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-08 23:10:12,876 ERROR 1863 [-/127.0.0.1/-/17ms GET /userOne] nodejs.SequelizeDatabaseError: Unknown column 'Info.orderBy' in 'on clause'
+    at Query.formatError (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/query-interface.js:1120:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at UserOneController.getUserListIncludeInfo (/Users/zhudapeng/Documents/GitHub/egg-learn/app/controller/userOne.ts:22:54)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'Info.orderBy' in 'on clause'","sql":"SELECT `user_one`.`id`, `user_one`.`username`, `user_one`.`created_at` AS `createdAt`, `user_one`.`updated_at` AS `updatedAt`, `Info`.`id` AS `Info.id`, `Info`.`age` AS `Info.age`, `Info`.`address` AS `Info.address`, `Info`.`created_at` AS `Info.createdAt`, `Info`.`updated_at` AS `Info.updatedAt`, `Info`.`user_id` AS `Info.user_id` FROM `user_one` AS `user_one` LEFT OUTER JOIN `user_info` AS `Info` ON `user_one`.`id` = `Info`.`user_id` AND `Info`.`age` >= 50 AND `Info`.`orderBy` = 'created_time';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'Info.orderBy' in 'on clause'","sql":"SELECT `user_one`.`id`, `user_one`.`username`, `user_one`.`created_at` AS `createdAt`, `user_one`.`updated_at` AS `updatedAt`, `Info`.`id` AS `Info.id`, `Info`.`age` AS `Info.age`, `Info`.`address` AS `Info.address`, `Info`.`created_at` AS `Info.createdAt`, `Info`.`updated_at` AS `Info.updatedAt`, `Info`.`user_id` AS `Info.user_id` FROM `user_one` AS `user_one` LEFT OUTER JOIN `user_info` AS `Info` ON `user_one`.`id` = `Info`.`user_id` AND `Info`.`age` >= 50 AND `Info`.`orderBy` = 'created_time';"}
+sql: "SELECT `user_one`.`id`, `user_one`.`username`, `user_one`.`created_at` AS `createdAt`, `user_one`.`updated_at` AS `updatedAt`, `Info`.`id` AS `Info.id`, `Info`.`age` AS `Info.age`, `Info`.`address` AS `Info.address`, `Info`.`created_at` AS `Info.createdAt`, `Info`.`updated_at` AS `Info.updatedAt`, `Info`.`user_id` AS `Info.user_id` FROM `user_one` AS `user_one` LEFT OUTER JOIN `user_info` AS `Info` ON `user_one`.`id` = `Info`.`user_id` AND `Info`.`age` >= 50 AND `Info`.`orderBy` = 'created_time';"
+parameters: undefined
+pid: 1863
+hostname: zhudapengdeMacBook-Pro.local
+

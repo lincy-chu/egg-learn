@@ -13,6 +13,7 @@ import ExportSession from '../../../app/controller/session';
 import ExportStudent from '../../../app/controller/student';
 import ExportTester from '../../../app/controller/tester';
 import ExportUser from '../../../app/controller/user';
+import ExportUserOne from '../../../app/controller/userOne';
 import ExportUsers from '../../../app/controller/users';
 
 declare module 'egg' {
@@ -28,6 +29,7 @@ declare module 'egg' {
     student: ExportStudent;
     tester: ExportTester;
     user: ExportUser;
+    userOne: ExportUserOne;
     users: ExportUsers;
   }
 }
