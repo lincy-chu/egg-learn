@@ -3,17 +3,15 @@
 const moment = require('moment');
 module.exports = app => {
     const { INTEGER, STRING, DATE, NOW } = app.Sequelize;
-    const Info = app.model.define('Info', {
+    const Teacher = app.model.define('Teacher', {
         id: {
             type: INTEGER.UNSIGNED,
             autoIncrement: true,
             primaryKey: true,
         },
-        age: {
-            type: INTEGER.UNSIGNED,
-        },
-        address: {
-            type: STRING(50),
+        name: {
+            type: STRING(20),
+            allowNull: false,
         },
         createdAt: {
             type: DATE,
@@ -33,10 +31,9 @@ module.exports = app => {
                 return moment(this.getDataValue('updatedAt')).format('YYYY-MM-DD HH:mm:ss');
             },
         },
-    }, { freezeTableName: true, tableName: 'user_info' });
+    }, { freezeTableName: true, tableName: 'teacher' });
     // tslint:disable-next-line:only-arrow-functions
-    Info.associate = function() {
-        app.model.Info.belongsTo(app.model.UserOne, { foreignKey: 'user_id', targetKey: 'id' });
+    Teacher.associate = function() {
     };
-    return Info;
+    return Teacher;
 };

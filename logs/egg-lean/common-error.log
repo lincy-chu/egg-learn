@@ -1509,3 +1509,250 @@ parameters: undefined
 pid: 1863
 hostname: zhudapengdeMacBook-Pro.local
 
+2019-10-09 21:31:19,709 ERROR 984 [-/127.0.0.1/-/77ms GET /userMany] nodejs.SequelizeDatabaseError: Unknown column 'Families.user_id' in 'field list'
+    at Query.formatError (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/query-interface.js:1120:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at UserOneController.hasMany (/Users/zhudapeng/Documents/GitHub/egg-learn/app/controller/userOne.ts:45:51)
+    at Object.callFn (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'Families.user_id' in 'field list'","sql":"SELECT `user_one`.`id`, `user_one`.`username`, `user_one`.`created_at` AS `createdAt`, `user_one`.`updated_at` AS `updatedAt`, `Families`.`id` AS `Families.id`, `Families`.`name` AS `Families.name`, `Families`.`gender` AS `Families.gender`, `Families`.`relationship` AS `Families.relationship`, `Families`.`created_at` AS `Families.createdAt`, `Families`.`updated_at` AS `Families.updatedAt`, `Families`.`user_id` AS `Families.user_id` FROM `user_one` AS `user_one` LEFT OUTER JOIN `family` AS `Families` ON `user_one`.`id` = `Families`.`user_id`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'Families.user_id' in 'field list'","sql":"SELECT `user_one`.`id`, `user_one`.`username`, `user_one`.`created_at` AS `createdAt`, `user_one`.`updated_at` AS `updatedAt`, `Families`.`id` AS `Families.id`, `Families`.`name` AS `Families.name`, `Families`.`gender` AS `Families.gender`, `Families`.`relationship` AS `Families.relationship`, `Families`.`created_at` AS `Families.createdAt`, `Families`.`updated_at` AS `Families.updatedAt`, `Families`.`user_id` AS `Families.user_id` FROM `user_one` AS `user_one` LEFT OUTER JOIN `family` AS `Families` ON `user_one`.`id` = `Families`.`user_id`;"}
+sql: "SELECT `user_one`.`id`, `user_one`.`username`, `user_one`.`created_at` AS `createdAt`, `user_one`.`updated_at` AS `updatedAt`, `Families`.`id` AS `Families.id`, `Families`.`name` AS `Families.name`, `Families`.`gender` AS `Families.gender`, `Families`.`relationship` AS `Families.relationship`, `Families`.`created_at` AS `Families.createdAt`, `Families`.`updated_at` AS `Families.updatedAt`, `Families`.`user_id` AS `Families.user_id` FROM `user_one` AS `user_one` LEFT OUTER JOIN `family` AS `Families` ON `user_one`.`id` = `Families`.`user_id`;"
+parameters: undefined
+pid: 984
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-09 21:50:11,091 ERROR 1050 [-/127.0.0.1/-/26ms GET /belongsTo] nodejs.SequelizeEagerLoadingError: user_one is not associated to Family!
+    at Function._getIncludedAssociation (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:715:13)
+    at Function._validateIncludedElement (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:619:53)
+    at options.include.options.include.map.include (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:516:37)
+    at Array.map (<anonymous>)
+    at Function._validateIncludedElements (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:511:39)
+    at Promise.try.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1725:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1719:8)
+    at UserOneController.belongsTo (/Users/zhudapeng/Documents/GitHub/egg-learn/app/controller/userOne.ts:58:50)
+    at Object.callFn (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+name: "SequelizeEagerLoadingError"
+pid: 1050
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-09 22:14:47,992 ERROR 1241 [-/127.0.0.1/-/43ms GET /belongsToMany] nodejs.SequelizeDatabaseError: Unknown column 'Teachers.updated_at' in 'field list'
+    at Query.formatError (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/query-interface.js:1120:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at UserOneController.belongsToMany (/Users/zhudapeng/Documents/GitHub/egg-learn/app/controller/userOne.ts:71:50)
+    at Object.callFn (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'Teachers.updated_at' in 'field list'","sql":"SELECT `Lesson`.`id`, `Lesson`.`name`, `Lesson`.`created_at` AS `createdAt`, `Lesson`.`updated_at` AS `updatedAt`, `Teachers`.`id` AS `Teachers.id`, `Teachers`.`name` AS `Teachers.name`, `Teachers`.`created_at` AS `Teachers.createdAt`, `Teachers`.`updated_at` AS `Teachers.updatedAt`, `Teachers->TeacherLessonRelation`.`id` AS `Teachers.TeacherLessonRelation.id`, `Teachers->TeacherLessonRelation`.`lesson_id` AS `Teachers.TeacherLessonRelation.lessonId`, `Teachers->TeacherLessonRelation`.`teacher_id` AS `Teachers.TeacherLessonRelation.teacherId`, `Teachers->TeacherLessonRelation`.`created_at` AS `Teachers.TeacherLessonRelation.createdAt`, `Teachers->TeacherLessonRelation`.`updated_at` AS `Teachers.TeacherLessonRelation.updatedAt` FROM `lesson` AS `Lesson` LEFT OUTER JOIN ( `teacher_lesson_relation` AS `Teachers->TeacherLessonRelation` INNER JOIN `teacher` AS `Teachers` ON `Teachers`.`id` = `Teachers->TeacherLessonRelation`.`teacher_id`) ON `Lesson`.`id` = `Teachers->TeacherLessonRelation`.`lesson_id`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'Teachers.updated_at' in 'field list'","sql":"SELECT `Lesson`.`id`, `Lesson`.`name`, `Lesson`.`created_at` AS `createdAt`, `Lesson`.`updated_at` AS `updatedAt`, `Teachers`.`id` AS `Teachers.id`, `Teachers`.`name` AS `Teachers.name`, `Teachers`.`created_at` AS `Teachers.createdAt`, `Teachers`.`updated_at` AS `Teachers.updatedAt`, `Teachers->TeacherLessonRelation`.`id` AS `Teachers.TeacherLessonRelation.id`, `Teachers->TeacherLessonRelation`.`lesson_id` AS `Teachers.TeacherLessonRelation.lessonId`, `Teachers->TeacherLessonRelation`.`teacher_id` AS `Teachers.TeacherLessonRelation.teacherId`, `Teachers->TeacherLessonRelation`.`created_at` AS `Teachers.TeacherLessonRelation.createdAt`, `Teachers->TeacherLessonRelation`.`updated_at` AS `Teachers.TeacherLessonRelation.updatedAt` FROM `lesson` AS `Lesson` LEFT OUTER JOIN ( `teacher_lesson_relation` AS `Teachers->TeacherLessonRelation` INNER JOIN `teacher` AS `Teachers` ON `Teachers`.`id` = `Teachers->TeacherLessonRelation`.`teacher_id`) ON `Lesson`.`id` = `Teachers->TeacherLessonRelation`.`lesson_id`;"}
+sql: "SELECT `Lesson`.`id`, `Lesson`.`name`, `Lesson`.`created_at` AS `createdAt`, `Lesson`.`updated_at` AS `updatedAt`, `Teachers`.`id` AS `Teachers.id`, `Teachers`.`name` AS `Teachers.name`, `Teachers`.`created_at` AS `Teachers.createdAt`, `Teachers`.`updated_at` AS `Teachers.updatedAt`, `Teachers->TeacherLessonRelation`.`id` AS `Teachers.TeacherLessonRelation.id`, `Teachers->TeacherLessonRelation`.`lesson_id` AS `Teachers.TeacherLessonRelation.lessonId`, `Teachers->TeacherLessonRelation`.`teacher_id` AS `Teachers.TeacherLessonRelation.teacherId`, `Teachers->TeacherLessonRelation`.`created_at` AS `Teachers.TeacherLessonRelation.createdAt`, `Teachers->TeacherLessonRelation`.`updated_at` AS `Teachers.TeacherLessonRelation.updatedAt` FROM `lesson` AS `Lesson` LEFT OUTER JOIN ( `teacher_lesson_relation` AS `Teachers->TeacherLessonRelation` INNER JOIN `teacher` AS `Teachers` ON `Teachers`.`id` = `Teachers->TeacherLessonRelation`.`teacher_id`) ON `Lesson`.`id` = `Teachers->TeacherLessonRelation`.`lesson_id`;"
+parameters: undefined
+pid: 1241
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-09 22:15:34,057 ERROR 1241 [-/127.0.0.1/-/30ms GET /belongsToMany] nodejs.SequelizeDatabaseError: Unknown column 'Teachers->TeacherLessonRelation.lesson_id' in 'field list'
+    at Query.formatError (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/query-interface.js:1120:27)
+    at Promise.try.then.then.then (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1756:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:1754:8)
+    at UserOneController.belongsToMany (/Users/zhudapeng/Documents/GitHub/egg-learn/app/controller/userOne.ts:71:50)
+    at Object.callFn (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'Teachers->TeacherLessonRelation.lesson_id' in 'field list'","sql":"SELECT `Lesson`.`id`, `Lesson`.`name`, `Lesson`.`created_at` AS `createdAt`, `Lesson`.`updated_at` AS `updatedAt`, `Teachers`.`id` AS `Teachers.id`, `Teachers`.`name` AS `Teachers.name`, `Teachers`.`created_at` AS `Teachers.createdAt`, `Teachers`.`updated_at` AS `Teachers.updatedAt`, `Teachers->TeacherLessonRelation`.`id` AS `Teachers.TeacherLessonRelation.id`, `Teachers->TeacherLessonRelation`.`lesson_id` AS `Teachers.TeacherLessonRelation.lessonId`, `Teachers->TeacherLessonRelation`.`teacher_id` AS `Teachers.TeacherLessonRelation.teacherId`, `Teachers->TeacherLessonRelation`.`created_at` AS `Teachers.TeacherLessonRelation.createdAt`, `Teachers->TeacherLessonRelation`.`updated_at` AS `Teachers.TeacherLessonRelation.updatedAt` FROM `lesson` AS `Lesson` LEFT OUTER JOIN ( `teacher_lesson_relation` AS `Teachers->TeacherLessonRelation` INNER JOIN `teacher` AS `Teachers` ON `Teachers`.`id` = `Teachers->TeacherLessonRelation`.`teacher_id`) ON `Lesson`.`id` = `Teachers->TeacherLessonRelation`.`lesson_id`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'Teachers->TeacherLessonRelation.lesson_id' in 'field list'","sql":"SELECT `Lesson`.`id`, `Lesson`.`name`, `Lesson`.`created_at` AS `createdAt`, `Lesson`.`updated_at` AS `updatedAt`, `Teachers`.`id` AS `Teachers.id`, `Teachers`.`name` AS `Teachers.name`, `Teachers`.`created_at` AS `Teachers.createdAt`, `Teachers`.`updated_at` AS `Teachers.updatedAt`, `Teachers->TeacherLessonRelation`.`id` AS `Teachers.TeacherLessonRelation.id`, `Teachers->TeacherLessonRelation`.`lesson_id` AS `Teachers.TeacherLessonRelation.lessonId`, `Teachers->TeacherLessonRelation`.`teacher_id` AS `Teachers.TeacherLessonRelation.teacherId`, `Teachers->TeacherLessonRelation`.`created_at` AS `Teachers.TeacherLessonRelation.createdAt`, `Teachers->TeacherLessonRelation`.`updated_at` AS `Teachers.TeacherLessonRelation.updatedAt` FROM `lesson` AS `Lesson` LEFT OUTER JOIN ( `teacher_lesson_relation` AS `Teachers->TeacherLessonRelation` INNER JOIN `teacher` AS `Teachers` ON `Teachers`.`id` = `Teachers->TeacherLessonRelation`.`teacher_id`) ON `Lesson`.`id` = `Teachers->TeacherLessonRelation`.`lesson_id`;"}
+sql: "SELECT `Lesson`.`id`, `Lesson`.`name`, `Lesson`.`created_at` AS `createdAt`, `Lesson`.`updated_at` AS `updatedAt`, `Teachers`.`id` AS `Teachers.id`, `Teachers`.`name` AS `Teachers.name`, `Teachers`.`created_at` AS `Teachers.createdAt`, `Teachers`.`updated_at` AS `Teachers.updatedAt`, `Teachers->TeacherLessonRelation`.`id` AS `Teachers.TeacherLessonRelation.id`, `Teachers->TeacherLessonRelation`.`lesson_id` AS `Teachers.TeacherLessonRelation.lessonId`, `Teachers->TeacherLessonRelation`.`teacher_id` AS `Teachers.TeacherLessonRelation.teacherId`, `Teachers->TeacherLessonRelation`.`created_at` AS `Teachers.TeacherLessonRelation.createdAt`, `Teachers->TeacherLessonRelation`.`updated_at` AS `Teachers.TeacherLessonRelation.updatedAt` FROM `lesson` AS `Lesson` LEFT OUTER JOIN ( `teacher_lesson_relation` AS `Teachers->TeacherLessonRelation` INNER JOIN `teacher` AS `Teachers` ON `Teachers`.`id` = `Teachers->TeacherLessonRelation`.`teacher_id`) ON `Lesson`.`id` = `Teachers->TeacherLessonRelation`.`lesson_id`;"
+parameters: undefined
+pid: 1241
+hostname: zhudapengdeMacBook-Pro.local
+
+2019-10-09 22:53:00,649 ERROR 1453 [-/127.0.0.1/-/63ms GET /userOne] nodejs.TypeError: moment_1.default is not a function
+    at model.get (/Users/zhudapeng/Documents/GitHub/egg-learn/app/model/userOne.ts:25:30)
+    at model.get (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:3508:41)
+    at model.get (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:3542:33)
+    at model.toJSON (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/sequelize/lib/model.js:4411:12)
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/lib/application.js:254:15)
+    at handleResponse (/Users/zhudapeng/Documents/GitHub/egg-learn/node_modules/koa/lib/application.js:160:34)
+
+pid: 1453
+hostname: zhudapengdeMacBook-Pro.local
+

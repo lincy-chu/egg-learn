@@ -4,6 +4,9 @@
 3. [一文看懂egg.js-基础全面讲解（下）](https://juejin.im/post/5d37ba17f265da1bc94f2f97)
 4. [一文看懂egg.js-基础全面讲解(完结)](https://juejin.im/post/5d38160c51882551c37fbcd2)
 
+# egg-sequelize连表查询
+1.[egg-sequelize连表查询](https://blog.csdn.net/qq_30101131/article/details/79474905)
+
 # hackernews-async-ts
 
 [Hacker News](https://news.ycombinator.com/) showcase using typescript && egg

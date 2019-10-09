@@ -36,6 +36,45 @@ class UserOneController extends Controller {
             where_has_required_false: result2,
         });
     }
+
+    /**
+     * 一对多：hasMany
+     */
+    async hasMany() {
+        const { ctx } = this;
+        const data = await this.app.model.UserOne.findAll({
+            include: {
+                model: this.app.model.Family,
+            },
+        });
+        ctx.body = ctx.helper.success(data);
+    }
+
+    /**
+     * 一对多 belongsTo
+     */
+    async belongsTo() {
+        const { ctx } = this;
+        const data = await this.app.model.Family.findAll({
+            include: {
+                model: this.app.model.UserOne,
+            },
+        });
+        ctx.body = ctx.helper.success(data);
+    }
+
+    /**
+     * 多对多
+     */
+    async belongsToMany() {
+        const { ctx } = this;
+        const data = await this.app.model.Lesson.findAll({
+            include: {
+                model: this.app.model.Teacher,
+            },
+        });
+        ctx.body = ctx.helper.success(data);
+    }
 }
 
 export default UserOneController;

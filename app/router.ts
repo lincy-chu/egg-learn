@@ -120,6 +120,12 @@ export default (app: Application) => {
   router.get('/tester/query', controller.tester.query);
   // 一对一跨表查询
   router.get('/userOne', controller.userOne.getUserListIncludeInfo);
+  // 一对多跨表查询
+  router.get('/userMany', controller.userOne.hasMany);
+  // 一对多belongsTo
+  router.get('/belongsTo', controller.userOne.belongsTo);
+  // 多对多belongsToMany
+  router.get('/belongsToMany', controller.userOne.belongsToMany);
 
   // 复杂参数的获取, /search/package/regex，例如：http://127.0.0.1:8080/search/robin/1.0.1
   // router.get(/^\/([\w-.]+\/[\w-.]+)$/, controller.search.detail);

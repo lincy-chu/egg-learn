@@ -2,18 +2,20 @@
 // tslint:disable-next-line:no-var-requires
 const moment = require('moment');
 module.exports = app => {
-    const { INTEGER, STRING, DATE, NOW } = app.Sequelize;
-    const Info = app.model.define('Info', {
+    const { INTEGER, DATE, NOW } = app.Sequelize;
+    const TeacherLessonRelation = app.model.define('TeacherLessonRelation', {
         id: {
             type: INTEGER.UNSIGNED,
             autoIncrement: true,
             primaryKey: true,
         },
-        age: {
+        lessonId: {
             type: INTEGER.UNSIGNED,
+            allowNull: false,
         },
-        address: {
-            type: STRING(50),
+        teacherId: {
+            type: INTEGER.UNSIGNED,
+            allowNull: false,
         },
         createdAt: {
             type: DATE,
@@ -33,10 +35,12 @@ module.exports = app => {
                 return moment(this.getDataValue('updatedAt')).format('YYYY-MM-DD HH:mm:ss');
             },
         },
-    }, { freezeTableName: true, tableName: 'user_info' });
+    }, {
+        freezeTableName: true,
+        tableName: 'teacher_lesson_relation',
+    });
     // tslint:disable-next-line:only-arrow-functions
-    Info.associate = function() {
-        app.model.Info.belongsTo(app.model.UserOne, { foreignKey: 'user_id', targetKey: 'id' });
+    TeacherLessonRelation.associate = function() {
     };
-    return Info;
+    return TeacherLessonRelation;
 };
